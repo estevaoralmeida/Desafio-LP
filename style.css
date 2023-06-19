@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+#top-menu{
+    background-color: #303030;
+}
+
+#top-menu-img{
+    width: 150px;
+    margin-top: 44px;
+    margin-left: 47px;
+}
+
+#top-menu-title{
+    color: white;
+    margin-left: 60px;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#top-menu-text{
+    color: white;
+    font-size: 18px;
+    margin-left: 60px;
+    padding-bottom: 140px;
+}
+
+#informational-menu{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.informational-numbers{
+    margin: 65px 0px 65px 115px;
+}
+
+.informational-text{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#image-section{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#img-section-title{
+    margin: 280px 0px 280px 80px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#img-section-text{
+    font-size: 24.5px;
+    font-weight: 300;
+}
+
+#image{
+    height: 600px;
+    margin-top: 90px;
+    padding-bottom: 100px;
+    margin-left: 4px;
+}
+
+#review-section{
+    background-color: #dfdfdf;
+}
+
+#review-title{
+    text-align: center;
+    padding-top: 80px;
+}
+
+#reviews{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.review-cards{
+    height: 550px;
+    padding-left: 130px;
+}
+
+#avaliacao3{
+    display: none;
+    margin-right: 100px;
+}
+
+#seta-esquerda{
+    margin-top: 270px;
+    margin-left: 50px;
+    display: none;
+    cursor: pointer;
+}
+
+#seta-esquerda:hover{
+    transform: translateX(-9px);
+    transition: 0.5s;
+}
+
+#seta-direita{
+    margin-top: 270px;
+    cursor: pointer;
+}
+
+#seta-direita:hover{
+    transform: translateX(9px);
+    transition: 0.5s;
+}
+
+#form-section{
+    background-color: #303030;
+    text-align: center;
+}
+
+#form-title{
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 25px;
+}
+
+input{
+    font-family: 'raleway';
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 10px;
+    line-height: 70px;
+    padding-left: 25px;
+    margin: 30px;
+    width: 480px;
+}
+
+button{
+    line-height: 70px;
+    font-weight: 700;
+    font-family: 'raleway';
+    color: white;
+    font-size: 30px;
+    background: #C07212;
+    border-radius: 10px;
+    width: 286px;
+    margin-top: 50px;
+    margin-bottom: 65px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: translateY(-9px);
+    transition: 0.5s;
+}
